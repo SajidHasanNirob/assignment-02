@@ -146,7 +146,7 @@ nav a {
     justify-content: space-around;
 }
 
-    .text{
+.text {
     color: #534C64;
     font-family: Work Sans;
     font-size: 20px;
@@ -154,4 +154,22 @@ nav a {
     font-weight: 500;
     line-height: 30px;
     /* 150% */
+}
+
+.angela {
+    display: flex;
+}
+
+/* .angela-pic {
+    Position: relative;
+    Bottom: 300px;
+    text-align: left
+} */
+#play {
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
 }
