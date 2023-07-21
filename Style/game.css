@@ -2,8 +2,8 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-body{
-    margin: 0,auto;
+body {
+    margin: 0, auto;
 }
 
 .header-title {
@@ -14,6 +14,24 @@ body{
 .header-pic {
     display: flex;
     gap: 10px;
+}
+
+.header-des {
+    text-align: center;
+    
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#g-color {
+    color: darkorchid;
+}
+
+.pic {
+    height: auto;
+    width: auto;
 }
 
 nav {
@@ -39,10 +57,20 @@ nav a {
 }
 
 .btn {
-    font-weight: 700;
-    height: 100%;
-    width: 100%; 
-    border: 200px;
-    color:lightgrey;
+
+    background-color: lightgrey;
+    border: 0;
     color: #3C354F;
+    border-radius: 8px;
+}
+.banner-content{
+    padding-top: 200px;
+}
+.banner-img{
+    display: flex;
+}
+.banner-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
