@@ -1,0 +1,48 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    margin: 0,auto;
+}
+
+.header-title {
+    display: flex;
+    gap: 740px;
+}
+
+.header-pic {
+    display: flex;
+    gap: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 50px;
+    list-style: none;
+    /* align-items: center; */
+}
+
+nav a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.btn {
+    font-weight: 700;
+    height: 100%;
+    width: 100%; 
+    border: 200px;
+    color:lightgrey;
+    color: #3C354F;
+}
