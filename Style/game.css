@@ -18,7 +18,7 @@ body {
 
 .header-des {
     text-align: center;
-    
+
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -63,14 +63,95 @@ nav a {
     color: #3C354F;
     border-radius: 8px;
 }
-.banner-content{
+
+.banner-content {
     padding-top: 200px;
 }
-.banner-img{
+
+.banner-img {
     display: flex;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     gap: 30px;
     justify-content: center;
+}
+
+.game {
+    justify-items: center;
+    text-align: right;
+}
+
+.gamer-container {
+    display: flex;
+    gap: 20px;
+}
+
+#btnn {
+    background: darkorchid 30px solid;
+    border-radius: 8px;
+    border: 0;
+
+    padding: 21px 40px;
+
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.our {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+}
+
+.online {
+    text-align: center;
+}
+
+#bold {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#a-col {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.img {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+    .text{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
 }
